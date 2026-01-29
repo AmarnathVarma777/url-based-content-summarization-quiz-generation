@@ -1,0 +1,122 @@
+/* ---------- Global ---------- */
+body {
+    background-color: #0f172a; /* Deep blue-gray */
+    color: #e5e7eb;
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* ---------- Main Container ---------- */
+.main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1.5rem 2rem;
+}
+
+/* ---------- Card ---------- */
+.card {
+    background: #0d121d;
+    border-radius: 14px;
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 1.4rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    border: 1px solid #1f2933;
+}
+
+/* ---------- Header ---------- */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-text {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #f9fafb;
+}
+
+.subtitle-text {
+    font-size: 1.5rem;
+    color: #e8eaed;
+    margin-top: 0.4rem;
+    line-height: 1.6;
+}
+
+/* ---------- Section Titles ---------- */
+.section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #e5e7eb;
+    margin-bottom: 0.6rem;
+}
+
+/* ---------- Summary ---------- */
+.summary-box {
+    background: #020617;
+    border-radius: 12px;
+    padding: 1.3rem 1.4rem;
+    color: #e5e7eb;
+    border-left: 5px solid #38bdf8;
+    margin-top: 0.8rem;
+}
+
+/* ---------- Question ---------- */
+.question-box {
+    background: #020617;
+    border-radius: 12px;
+    padding: 1.1rem 1.3rem;
+    margin-bottom: 0.8rem;
+    border-left: 5px solid #22c55e;
+}
+
+/* ---------- Badge ---------- */
+.badge {
+    display: inline-block;
+    background: #1e293b;
+    color: #38bdf8;
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+}
+
+/* ---------- Sidebar ---------- */
+section[data-testid="stSidebar"] {
+    background-color: #020617;
+    border-right: 1px solid #1f2933;
+}
+
+/* Sidebar text */
+section[data-testid="stSidebar"] * {
+    color: #e5e7eb;
+}
+
+/* ---------- Buttons ---------- */
+button[kind="primary"] {
+    background: linear-gradient(135deg, #38bdf8, #6366f1);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.45rem 0.9rem;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* ---------- Radio ---------- */
+div[role="radiogroup"] label {
+    background: #020617;
+    border-radius: 8px;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 0.4rem;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.85rem;
+    margin-top: 2rem;
+}
