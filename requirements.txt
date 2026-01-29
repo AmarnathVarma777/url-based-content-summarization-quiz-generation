@@ -1,0 +1,12 @@
+streamlit
+groq
+beautifulsoup4
+trafilatura
+youtube-transcript-api
+pytube
+moviepy
+requests
+python-dotenv
+transformers
+torch
+sentencepiece
